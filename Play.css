@@ -1,0 +1,113 @@
+.play-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+  }
+  
+  .play-section {
+    position: relative;
+    height: 230px;
+    width: 300px;
+    background-color: #3d3d3d;
+    border: 5px solid #656565;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0 #ff9800, 10px 10px 0 #3d3d3d;
+  }
+  
+  .play-button-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 5px;
+    background-color: #3d3d3d;
+    border-top: 5px solid #656565;
+    border-bottom: 5px solid #656565;
+  }
+  
+  .play-button {
+    flex-basis: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: #3d3d3d;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0 #656565;
+    transition: box-shadow 0.1s ease-out;
+    outline: none;
+  }
+  
+.play-note-display {
+  font-size: 2em;
+  margin: 20px;
+  text-align: center;
+  background-color: #656565;
+  padding: 20px;
+  border: 5px solid #3d3d3d;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+}
+
+  
+  .play-button.key {
+    background-color: #9b9b9b;
+    color: white;
+  }
+  
+  .play-button.key:hover {
+    box-shadow: none;
+    transform: translateY(1px);
+  }
+  
+  .play-button.red {
+    background-color: #ff5c5c;
+    box-shadow: 2px 2px 0 #c25252;
+  }
+  
+  .play-button.orange {
+    background-color: #ffaf5c;
+    box-shadow: 2px 2px 0 #c28a52;
+  }
+  
+  .play-button.yellow {
+    background-color: #ffff5c;
+    box-shadow: 2px 2px 0 #c2c252;
+  }
+  
+  .play-button.blue {
+    background-color: #5ccaff;
+    box-shadow: 2px 2px 0 #52c2c2;
+  }
+  
+  .play-button.indigo {
+    background-color: #5c5cff;
+    box-shadow: 2px 2px 0 #5252c2;
+  }
+  
+  .play-button.violet {
+    background-color: #ff5cff;
+    box-shadow: 2px 2px 0 #c252c2;
+  }
+  
+  .play-button:hover {
+    box-shadow: none;
+    transform: translateY(1px);
+  }
+  
+  .black-button {
+    background-color: #3d3d3d;
+    box-shadow: 2px 2px 0 #656565;
+    color: white;
+    outline: none;
+  }
+  
+  .black-button:hover {
+    box-shadow: none;
+  }  

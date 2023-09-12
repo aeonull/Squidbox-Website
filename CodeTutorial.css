@@ -1,0 +1,103 @@
+.CodeTutorial, .PlatformIOTutorial {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    padding-top: 40px;
+    margin-top: 25px;
+    background-color: rgba(45, 45, 45, 1);
+  }
+  
+  .CodeTutorial h2, .PlatformIOTutorial h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .CodeTutorial h3, .PlatformIOTutorial h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1.7rem; /* Increased font size */
+  }
+  
+  .CodeTutorial h3 {
+    color: #40daf9; 
+  }
+  
+  .PlatformIOTutorial h3 {
+    color: #40daf9; 
+  }
+  
+  .CodeTutorial p, .PlatformIOTutorial p {
+    color: #ffffff;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+  
+  .CodeTutorial ul, .PlatformIOTutorial ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .CodeTutorial li, .PlatformIOTutorial li {
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 1rem;
+  }
+  
+  .CodeTutorial a, .PlatformIOTutorial a {
+    color: #00fff2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  
+  .CodeTutorial a:hover, .PlatformIOTutorial a:hover {
+    text-decoration: underline;
+  }
+  
+  .CodeTutorial pre, .PlatformIOTutorial pre {
+    background-color: #282c34;
+    color: #abb2bf;
+    padding: 15px;
+    border-radius: 10px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 0.8rem;
+  }
+  
+  .CodeTutorial button,
+  .PlatformIOTutorial button {
+    background-color: #00d5ffba;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    float: right;
+    margin-left: 10px;
+  }
+  
+  .container {
+    text-align: right;
+  }
+  .CodeTutorial code, .PlatformIOTutorial code {
+    background-color: #00a2ffba;
+    color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold; 
+  }
+  
+  
+  
+  .CodeTutorial button:hover, .PlatformIOTutorial button:hover {
+    background-color: #00d9ff68;
+  }
+  

@@ -1,0 +1,78 @@
+/* src/Tutorials.css */
+
+.tutorials-wrapper {
+  display: flex;
+  justify-content: center;
+  min-height: 10vh;
+}
+
+.tutorials-container {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  max-width: 700px;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.tutorials-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+
+.tutorials-list {
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.tutorials-list li {
+  margin-bottom: 10px;
+}
+
+.tutorials-list a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.tutorials-list a:hover,
+.tutorials-list a:focus {
+  text-decoration: underline;
+}
+
+.tutorials-list a {
+  display: inline-block;
+  position: relative;
+  transition: all 0.3s ease;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #333;
+}
+
+.tutorials-list a:hover::before {
+  content: attr(title);
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.tutorials-list a:hover {
+  text-decoration: underline;
+}

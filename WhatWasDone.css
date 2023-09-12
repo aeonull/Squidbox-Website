@@ -1,0 +1,100 @@
+.WhatWasDone {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    padding-top: 40px;
+    margin-top: 25px;
+    background-color: rgba(45, 45, 45, 1);
+}
+
+.WhatWasDone h2 {
+    color: #40daf9;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.WhatWasDone li {
+    color: #40daf9;
+}
+
+.WhatWasDone strong {
+    color: #40daf9;
+}
+
+.WhatWasDone h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+    color: #40daf9;
+}
+
+.WhatWasDone p {
+    color: #ffffff;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.WhatWasDone ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.WhatWasDone li {
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.WhatWasDone a {
+    color: #00fff2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.WhatWasDone a:hover {
+    text-decoration: underline;
+}
+
+.WhatWasDone pre {
+    background-color: #282c34;
+    color: #abb2bf;
+    padding: 15px;
+    border-radius: 10px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 0.8rem;
+}
+
+.WhatWasDone button {
+    background-color: #00d5ffba;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    float: right;
+    margin-left: 10px;
+}
+
+.container {
+    text-align: right;
+}
+
+.WhatWasDone code {
+    background-color: #00a2ffba;
+    color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.WhatWasDone button:hover {
+    background-color: #00d9ff68;
+}

@@ -1,0 +1,194 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #000000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  background-image: url(SquidboxImage.png);
+  background-position: center;
+  animation: scroll 200s linear infinite;
+  transition: background-image 1s ease-in-out;
+}
+
+
+@keyframes scroll {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 2000px;
+  }
+}
+.App-header {
+  background-color: rgba(29, 29, 29, 0.8);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+
+.App-header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-header h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  
+}
+
+.App-main {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.App-section {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  flex-basis: 45%;
+}
+.App-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.App-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.App-nav a:hover {
+  text-decoration: underline;
+}
+
+.App-section:first-of-type {
+  margin-right: 20px;
+}
+
+.App-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.App-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.App-list li {
+  margin-bottom: 10px;
+}
+
+.App-list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.App-list a:hover {
+  text-decoration: underline;
+}
+
+.App-footer {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold; /* Increase font weight */
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5); /* Add text shadow */
+}
+
+.App-footer p {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+
+
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+h1 span {
+  display: inline-block;
+  opacity: 0;
+}
+
+h1 span {
+  display: inline-block;
+  opacity: 1;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateX(-20px) rotate(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+/* Add this new class for the rainbow text animation */
+.rainbow-text {
+  opacity: 0;
+  animation: rainbow 10s linear infinite;
+  background-image: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(255, 255, 0, 1) 15%, rgba(0, 255, 0, 1) 30%, rgba(0, 255, 255, 1) 45%, rgba(0, 0, 255, 1) 60%, rgba(255, 0, 255, 1) 75%, rgba(255, 0, 0, 1) 90%);
+  background-size: 600%;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.rainbow-text-fade-in {
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+
